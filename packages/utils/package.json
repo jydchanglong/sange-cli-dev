@@ -18,5 +18,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bin": {
+    "sange-cli-dev": "lib/index.js"
   }
 }
