@@ -1,14 +1,11 @@
 {
-  "name": "@sange-cli-dev/core",
+  "name": "@sange-cli-dev/utils",
   "version": "1.0.2",
-  "description": "sange-cli-dev core",
+  "description": "sange-cli-dev utils",
   "author": "jydchanglong <2678011483@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
-  "bin": {
-    "sange-cli-dev": "lib/index.js"
-  },
+  "main": "",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,10 +16,11 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
-    "@imooc-cli/utils": "^1.1.1"
-  },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "bin": {
+    "sange-cli-dev": "lib/index.js"
+  },
+  "gitHead": "143dd1cee59b40f49ac1ed5bbb15cd5cd18124b7"
 }
