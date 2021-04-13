@@ -1,0 +1,29 @@
+{
+  "name": "@sange-cli-dev/core",
+  "version": "1.0.2",
+  "description": "sange-cli-dev core",
+  "author": "jydchanglong <2678011483@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "sange-cli-dev": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@sange-cli-dev/utils": "file:../../utils/utils"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "143dd1cee59b40f49ac1ed5bbb15cd5cd18124b7"
+}
