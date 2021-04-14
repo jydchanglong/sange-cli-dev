@@ -1,3 +1,9 @@
 #! /usr/bin/env node
 
-console.log('utils')
+
+function utils() {
+  console.log('utils');
+
+}
+
+module.exports = utils

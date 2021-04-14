@@ -5,7 +5,7 @@
   "author": "jydchanglong <2678011483@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "",
   "bin": {
     "sange-cli-dev": "bin/index.js"
   },
@@ -20,7 +20,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@sange-cli-dev/utils": "file:../../utils/utils"
+    "@sange-cli-dev/utils": "file:../../utils/utils",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2"
   },
   "publishConfig": {
     "access": "public"
